@@ -109,7 +109,8 @@ body {
 
   .introduction-text {
     font-size: 1.5rem;
-    
+    position: relative;
+    right: 45px;
   }
 
   .quote {
@@ -118,6 +119,8 @@ body {
 
   .author {
     font-size: 2rem;
+    position: relative;
+    left: 70px;
   }
 
   .cem-image {
@@ -125,6 +128,7 @@ body {
     right: 70px;
     margin-top: 0;
     margin-right: 20px;
+    
   }
 }
 
