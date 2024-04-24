@@ -1,0 +1,37 @@
+@media (min-width: 600px) {
+    .introduction-header {
+      font-size: 2.5rem;
+    }
+  
+    .introduction-text {
+      font-size: 1.3rem;
+    }
+  
+    .quote {
+      font-size: 0.9rem;
+    }
+  
+    .author {
+      font-size: 2.8rem;
+    }
+  }
+  
+  @media (min-width: 400px) {
+    .introduction-header {
+      font-size: 1rem;
+    }
+  
+    .introduction-text {
+      font-size: 2.5rem;
+    }
+  
+    .quote {
+      font-size: 1rem;
+    }
+  
+    .author {
+      font-size: 2.5rem;
+      
+      
+    }
+  }
