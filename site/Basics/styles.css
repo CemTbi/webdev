@@ -55,6 +55,7 @@ body {
 
   .social-icons {
     font-size: 3rem;
+    width: 100px;
   }
 
   img {
@@ -83,10 +84,17 @@ body {
     font-size: 1.2rem;
   }
 
-  .author {
+  .author .author-name {
     font-size: 3.5rem;
     position: relative;
     left: 70px;
+    align-self: flex-end;
+  }
+
+  .author .social-icons {
+    position: relative;
+    left: 70px;
+    
   }
 
   .cem-image {
@@ -117,6 +125,7 @@ body {
     font-size: 1.2rem;
   }
 
+
   .author {
     font-size: 3rem;
     position: relative;
@@ -128,7 +137,6 @@ body {
     right: 70px;
     margin-top: 0;
     margin-right: 20px;
-    
   }
 }
 
