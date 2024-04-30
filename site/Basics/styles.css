@@ -2,6 +2,7 @@
   margin: 0px;
   padding:0px;
   box-sizing: border-box;
+  
 } 
 
 body {
@@ -42,29 +43,17 @@ body {
   }
 
   .main-part {
+    display: flex;
+    justify-content: space-between;
     font-size: 3rem;
     color: white;
     padding: 20px 20px 0 20px;
     margin-top: 60px;
-    display: flex;
     height: auto;
-    width: 400px;
   }
 
   .contact, .contact-2 {
-    flex: 1;
-  }
-
-  .info-description {
-    margin-top: 10px;
-    font-weight: bold;
-  }
-
-  .info-extra {
-    margin-top: 20px;
-    font-size: 50%;
-    font-weight: bold;
-    color:#90A4AE;
+    width: 400px;
   }
 
   .contact-header {
@@ -72,12 +61,12 @@ body {
     color:#90A4AE;
   }
 
-  .contact-description {
+  .contact-description, .info-description {
     margin-top: 10px;
     font-weight: bold;
   }
 
-  .contact-extra {
+  .contact-extra, .info-extra {
     margin-top: 20px;
     font-size: 50%;
     font-weight: bold;
@@ -146,11 +135,11 @@ body {
     font-size: 1rem;
   }
 
-  .contact-description {
+  .contact-description, .info-description {
     font-size: 2.5rem;
   }
 
-  .contact-extra {
+  .contact-extra, .info-extra {
     font-size: 1.2rem;
   }
 
@@ -216,11 +205,11 @@ body {
     font-size: 1rem;
   }
 
-  .contact-description {
+  .contact-description, .info-description {
     font-size: 1.7rem;
   }
 
-  .contact-extra {
+  .contact-extra, .info-extra {
     font-size: 1.2rem;
   }
 
@@ -273,11 +262,11 @@ body {
     font-size: 0.9rem;
   }
 
-  .contact-description {
+  .contact-description, .info-description {
     font-size: 1.2rem;
   }
 
-  .contact-extra {
+  .contact-extra, .info-extra {
     font-size: 0.9rem;
   }
 
@@ -316,11 +305,11 @@ body {
     font-size: 1.5rem;
   }
 
-  .contact-description {
+  .contact-description, .info-description {
     font-size: 1.3rem;
   }
 
-  .contact-extra {
+  .contact-extra, .info-extra {
     font-size: 0.9rem;
   }
 }
