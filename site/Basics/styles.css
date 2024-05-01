@@ -44,16 +44,21 @@ body {
 
   .main-part {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     font-size: 3rem;
     color: white;
     padding: 20px 20px 0 20px;
+    margin: 20px;
     margin-top: 60px;
     height: auto;
   }
 
-  .contact, .contact-2 {
-    width: 400px;
+  .contact  {
+    width: 350px;
+  }
+
+  .contact-2 {
+    width: 500px;
   }
 
   .contact-header {
@@ -71,6 +76,12 @@ body {
     font-size: 50%;
     font-weight: bold;
     color:#90A4AE;
+  }
+
+  .experience, .customers {
+    margin-top: 20px;
+    font-size: 50%;
+    font-weight: bold;
   }
 
   .author {
@@ -136,6 +147,18 @@ body {
 
   .contact-extra, .info-extra {
     font-size: 1.2rem;
+  }
+
+  .experience, .customers {
+    font-size: 1.2rem;
+  }
+
+  .experience::first-letter {
+    font-size: 2rem;
+  }
+
+  .contact-extra {
+    margin-bottom: 30px;
   }
 
   .author {
