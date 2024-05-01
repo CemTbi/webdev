@@ -48,7 +48,6 @@ body {
     font-size: 3rem;
     color: white;
     padding: 20px;
-    margin: 20px;
     margin: 60px 60px;
     height: auto;
   }
@@ -220,11 +219,6 @@ body {
     font-size: 2rem;
   }
 
-  .main-part {
-    position: relative;
-    left: 50px;
-  }
-
   .contact-header {
     font-size: 1rem;
   }
@@ -277,17 +271,20 @@ body {
     font-size: 1rem;
   }
 
-  .main-part {
-    position: relative;
-    left: 20px;
-  }
-
   .contact-header {
     font-size: 0.9rem;
   }
 
   .contact-description, .info-description {
     font-size: 1.2rem;
+  }
+
+  .num1, .num2 {
+    font-size: 3rem;
+  }
+
+  .contact-2 {
+    width: 280px;
   }
 
   .contact-extra, .info-extra {
@@ -323,6 +320,12 @@ body {
 
   .main-part {
     padding: 20px;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  .contact-2 {
+    width: 300px;
   }
 
   .contact-header {
@@ -357,7 +360,11 @@ body {
 
   .main-part {
     padding: 20px;
+    flex-direction: column;
+   
   }
+
+
 
   .social-icons {
     font-size: 2rem;
