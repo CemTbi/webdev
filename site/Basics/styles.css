@@ -381,7 +381,7 @@ body {
 @media (max-width: 676px) {
 
   * {
-    overflow: hidden;
+    overflow-x: hidden;
   }
 
   .introduction-header {
