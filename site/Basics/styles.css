@@ -42,25 +42,38 @@ body {
   }
 
   .skills > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     position: relative;
     bottom: 150px;
     width: 300px;
     background-color: #484454;
     font-weight: bold;
-    padding: 10px;
-    font-size: 2.8rem;
+    padding: 40px;
+    font-size: 2rem;
+  }
+
+  .skills > div > img {
+    
+      width: 40%;
+      height: 40%;
+    
+  }
+
+  
+
+  .projects {
+    font-size: 1rem;
+    color:lightgray;
   }
 
   .skills > div:hover {
     background-color: #00beef;
-    color:#313445;
-    
+    color:white;
   }
 
-  .projects {
-    font-size: 1rem;
-    color:#00beef;
-  }
+  
   
   .introduction-header {
     padding-top: 10px;
