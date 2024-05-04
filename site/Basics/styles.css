@@ -49,7 +49,7 @@ body {
     background-color: #484454;
     font-weight: bold;
     padding: 40px;
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
 
   .text {
@@ -61,7 +61,17 @@ body {
   .skills > div > img {
     width: 20%;
     height: 20%;
+    position: relative;
+    top: 90px;
+    right: 20px;
+  }
+
+  footer .footer-icons {
     display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 2rem;
+    column-gap: 5px;
   }
 
 
