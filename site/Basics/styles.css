@@ -43,8 +43,6 @@ body {
 
   .skills > div {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
     position: relative;
     bottom: 150px;
     width: 300px;
@@ -54,14 +52,18 @@ body {
     font-size: 2rem;
   }
 
-  .skills > div > img {
-    
-      width: 40%;
-      height: 40%;
-    
+  .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
   }
 
-  
+  .skills > div > img {
+    width: 20%;
+    height: 20%;
+    display: flex;
+  }
+
 
   .projects {
     font-size: 1rem;
@@ -72,8 +74,6 @@ body {
     background-color: #00beef;
     color:white;
   }
-
-  
   
   .introduction-header {
     padding-top: 10px;
@@ -140,6 +140,7 @@ body {
   .cem-image {
     max-width: 100%;
   }
+  
 
   a:hover {
     color: #00beef;
