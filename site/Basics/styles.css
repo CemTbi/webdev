@@ -402,14 +402,14 @@ body {
   }  
 
   .main-part {
+    margin: 20px;
     padding: 20px;
     flex-direction: column;
     row-gap: 20px;
-    align-items: center;
   }
 
-  .contact-2 {
-    width: 300px;
+  .contact-2, .contact {
+    width: auto;
   }
 
   .contact-header {
@@ -426,9 +426,7 @@ body {
 }
 
 @media (max-width: 400px) {
-  * {
-    overflow-x: hidden;
-  }
+  
 
   .introduction-header {
     font-size: 1rem;
@@ -449,15 +447,12 @@ body {
 
   .main-part {
     margin: 5px;
-    
+    flex-direction: column;
     row-gap: 20px;
-    align-items: center;
   }
 
-  .contact-2 {
-    width: 300px;
-    position: relative;
-    right: 25px;
+  .contact-2, .contact {
+    width: auto;
   }
 
   .contact-header {
