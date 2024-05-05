@@ -72,6 +72,7 @@ body {
     width: 100%;
     font-size: 2rem;
     column-gap: 5px;
+    padding: 10px;
   }
 
 
@@ -317,6 +318,16 @@ body {
     right: 25px;
   }
 
+  .skills > div {
+    height: 230px;
+    width: 230px;
+  }
+
+  .skills > div > img {
+    position: relative;
+    top: 60px;
+  }
+
   .quote {
     font-size: 0.9rem;
   }
@@ -391,7 +402,17 @@ body {
     font-size: 1.5rem;
     position: relative;
     left: 50px;
-  }  
+  }
+
+  .skills > div {
+    height: 210px;
+    width: 210px;
+  }
+
+  .skills > div > img {
+    position: relative;
+    top: 42px;
+  }
 
   .social-icons {
     position: relative;
@@ -408,7 +429,7 @@ body {
   }
 
   .main-part {
-    margin: 20px 20px;
+    margin: 20px 20px 240px 20px;
     column-gap: 20px;
   }
 
@@ -442,10 +463,6 @@ body {
 
 @media (min-width:401px) and (max-width: 676px) {
 
-  * {
-    overflow-x: hidden;
-  }
-
   .introduction-header {
     font-size: 1.5rem;
   }
@@ -464,10 +481,30 @@ body {
   }  
 
   .main-part {
-    margin: 20px;
+    margin: 20px 20px 240px 20px;
     padding: 20px;
     flex-direction: column;
     row-gap: 20px;
+  }
+
+  .skills > div {
+    height: 150px;
+    width: 150px;
+  }
+
+  .skills {
+    height: 220px;
+  }
+
+  .text {
+    position: relative;
+    right: 30px;
+  }
+
+  .skills > div > img {
+    position: relative;
+    top: 15px;
+    right: 35px;
   }
 
   .contact-2, .contact {
@@ -501,6 +538,29 @@ body {
   .quote {
     font-size: 0.9rem;
     padding-bottom: 20px;
+  }
+
+  
+
+  .skills > div {
+    height: 180px;
+    width: 180px;
+  }
+
+  .skills {
+    height: 220px;
+    flex-direction: column;
+  }
+
+  .text {
+    position: relative;
+    right: 30px;
+  }
+
+  .skills > div > img {
+    position: relative;
+    top: 15px;
+    right: 35px;
   }
 
   .author {
